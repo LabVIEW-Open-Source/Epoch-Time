@@ -46,10 +46,19 @@ Taking the following date and time: January 1st, 2021 @ 11:50:22.587 in Montreal
 
 The reverse operation (ISO8601 DateString to Timestamp) supports all the above accepted formats, validates the input string for compliance and returns the ISO Format type matched.
 
+![ISO8601](https://user-images.githubusercontent.com/11728548/104110687-0f52cc80-52a8-11eb-8888-462fc7243fbf.png "ISO8601")
+
 ## RFC3339 Format
 
 RFC3339 is based on ISO8601 but allows for a few deviations.
 A notable one is the space to replace the "T" in the UTC DateTime. Instead of providing an entirely separate method, the DateTime to Timestamp exposes a "Strict ISO?" terminal which can be set to false to accept RFC3339 format as a valid date-time string.
+
+![RFC3339](https://user-images.githubusercontent.com/11728548/104110707-4e811d80-52a8-11eb-8d5c-0809daea39c0.png "RFC3339")
+
+## RFC5322 Format
+
+RFC5332 is the Internet Email Date Format and is used in the email headers.
+![RFC5332](https://user-images.githubusercontent.com/11728548/104110791-04e50280-52a9-11eb-8020-96b7e05be872.png "RFC5332")
 
 ## Compare Timestamps
 
@@ -63,10 +72,11 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
 Therefore, leap seconds are sometimes added or removed to UTC time. Based on the history of the number of leap seconds added to the UTC, one must use this look-up table to make the exact time conversions.
 Leap Seconds record is kept in a table maintained by an international consortium (https://www.ietf.org/timezones/data/leap-seconds.list)
 
+![GPS-Unix](https://user-images.githubusercontent.com/11728548/104110804-2d6cfc80-52a9-11eb-8ef9-36ea583df8c7.png "GPS and Unix Time")
+
 Notable facts: 
 - UTC Time accepts "YYYY-12-31T23:59:60Z" to allow for leap seconds to be introduced (note the seconds segment = 60)
 - GPS Clock is permanently offset from TAI by 19 seconds
 - UTC is, in 2021, offset by 37 seconds from TAI... and 18 seconds from GPS (37s - 19s)
 
-
-
+A practical method has been added to the palette to compare with a pre-defined resolution. The node defaults to 1 millisecond, but can be set to any fractional of multiple of 1, and units available span from nanoseconds to weeks.
