@@ -34,17 +34,18 @@
 				<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
 				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 			</Item>
-			<Item Name="Gregorian Calendar" Type="Folder">
-				<Item Name="Gregorian Calendar Month -- enum.ctl" Type="VI" URL="../source/Gregorian Calendar Month -- enum.ctl"/>
-				<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../source/GregorianCal_MonthLengths.vi"/>
-				<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../source/GregorianCal_MonthLength.vi"/>
-			</Item>
 			<Item Name="RFC5322 (Email) Formatting" Type="Folder">
 				<Item Name="DateTime.RFC5322.lvclass" Type="LVClass" URL="../source/formatter.rfc5322/DateTime.RFC5322.lvclass"/>
 				<Item Name="Timestamp to RFC5322 DateString.vi" Type="VI" URL="../source/formatter.rfc5322/Timestamp to RFC5322 DateString.vi"/>
 				<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
 				<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="../source/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
 			</Item>
+			<Item Name="Gregorian Calendar" Type="Folder">
+				<Item Name="GregorianCal_Month -- enum.ctl" Type="VI" URL="../source/GregorianCal_Month -- enum.ctl"/>
+				<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../source/GregorianCal_MonthLengths.vi"/>
+				<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../source/GregorianCal_MonthLength.vi"/>
+			</Item>
+			<Item Name="GPS Formatting" Type="Folder"/>
 			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../source/Epochs -- enum.ctl"/>
 			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../source/UTC Offsets -- enum.ctl"/>
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../source/Timestamp Compare Units -- enum.ctl"/>
@@ -62,6 +63,8 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
