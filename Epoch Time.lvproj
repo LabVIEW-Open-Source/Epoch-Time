@@ -17,10 +17,18 @@
 		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="Epoch Classes" Type="Folder">
+				<Item Name="GPS" Type="Folder">
+					<Item Name="Epoch.GPS.lvclass" Type="LVClass" URL="../source/epoch.GPS/Epoch.GPS.lvclass"/>
+					<Item Name="Timestamp to GPS Time.vi" Type="VI" URL="../source/epoch.GPS/Timestamp to GPS Time.vi"/>
+					<Item Name="GPS Time to Timestamp.vi" Type="VI" URL="../source/epoch.GPS/GPS Time to Timestamp.vi"/>
+				</Item>
+				<Item Name="Unix" Type="Folder">
+					<Item Name="Epoch.UNIX.lvclass" Type="LVClass" URL="../source/epoch.UNIX/Epoch.UNIX.lvclass"/>
+					<Item Name="Timestamp to Unix Time.vi" Type="VI" URL="../source/epoch.UNIX/Timestamp to Unix Time.vi"/>
+					<Item Name="Unix Time to Timestamp.vi" Type="VI" URL="../source/epoch.UNIX/Unix Time to Timestamp.vi"/>
+				</Item>
 				<Item Name="Epoch.lvclass" Type="LVClass" URL="../source/epoch/Epoch.lvclass"/>
 				<Item Name="Epoch.UTC.lvclass" Type="LVClass" URL="../source/epoch.UTC/Epoch.UTC.lvclass"/>
-				<Item Name="Epoch.GPS.lvclass" Type="LVClass" URL="../source/epoch.GPS/Epoch.GPS.lvclass"/>
-				<Item Name="Epoch.UNIX.lvclass" Type="LVClass" URL="../source/epoch.UNIX/Epoch.UNIX.lvclass"/>
 				<Item Name="DateTimeFormatter.lvclass" Type="LVClass" URL="../source/formatter/DateTimeFormatter.lvclass"/>
 			</Item>
 			<Item Name="ISO Formatting" Type="Folder">
@@ -45,7 +53,6 @@
 				<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../source/GregorianCal_MonthLengths.vi"/>
 				<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../source/GregorianCal_MonthLength.vi"/>
 			</Item>
-			<Item Name="GPS Formatting" Type="Folder"/>
 			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../source/Epochs -- enum.ctl"/>
 			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../source/UTC Offsets -- enum.ctl"/>
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../source/Timestamp Compare Units -- enum.ctl"/>
