@@ -46,6 +46,8 @@ Taking the following date and time: January 1st, 2021 @ 11:50:22.587 in Montreal
 
 The reverse operation (ISO8601 DateString to Timestamp) supports all the above accepted formats, validates the input string for compliance and returns the ISO Format type matched.
 
+
+
 ## RFC3339 Format
 
 RFC3339 is based on ISO8601 but allows for a few deviations.
@@ -68,5 +70,4 @@ Notable facts:
 - GPS Clock is permanently offset from TAI by 19 seconds
 - UTC is, in 2021, offset by 37 seconds from TAI... and 18 seconds from GPS (37s - 19s)
 
-
-
+A practical method has been added to the palette to compare with a pre-defined resolution. The node defaults to 1 millisecond, but can be set to any fractional of multiple of 1, and units available span from nanoseconds to weeks.
