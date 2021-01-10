@@ -10,6 +10,8 @@ It is completed with an extensible interface for Date-String formatters and come
 - ISO8601 is the international standard for date and time on almost every modern interoperable systems and databases.
 - RFC5322 is the standard for email headers format, which includes a Date-Time string. This library covers only the date-time string part of the standard.
 
+![Main Palette](https://user-images.githubusercontent.com/11728548/104111178-10d2c380-52ad-11eb-97ee-ade918c80ea0.png "Main Palette")
+
 ## Epochs
 
 - UTC epoch starts on 1904-01-01
