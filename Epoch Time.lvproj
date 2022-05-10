@@ -62,6 +62,7 @@
 			<Item Name="isLeapYear (Poly).vi" Type="VI" URL="../source/isLeapYear (Poly).vi"/>
 			<Item Name="isLeapYear (integer).vi" Type="VI" URL="../source/isLeapYear (integer).vi"/>
 			<Item Name="isLeapYear (timestamp).vi" Type="VI" URL="../source/isLeapYear (timestamp).vi"/>
+			<Item Name="isDST.vi" Type="VI" URL="../source/isDST.vi"/>
 			<Item Name="Get Local UTC Offset.vi" Type="VI" URL="../source/Get Local UTC Offset.vi"/>
 			<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="../source/UTC Offset to Seconds.vi"/>
 			<Item Name="Compare Timestamps.vi" Type="VI" URL="../source/Compare Timestamps.vi"/>
