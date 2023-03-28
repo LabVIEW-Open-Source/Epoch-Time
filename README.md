@@ -1,6 +1,8 @@
 # Epoch-Time
 A unified time library for LabVIEW
 
+[![Image](https://www.vipm.io/package/labview_open_source_lib_epoch_datetime/badge.svg?metric=installs)](https://www.vipm.io/package/labview_open_source_lib_epoch_datetime/) [![Image](https://www.vipm.io/package/labview_open_source_lib_epoch_datetime/badge.svg?metric=stars)](https://www.vipm.io/package/labview_open_source_lib_epoch_datetime/)
+
 ## Epoch Date & Time
 
 This library provides support for UTC, Unix and GPS Epochs, enabling the conversion of timestamps into the proper frame of reference.
