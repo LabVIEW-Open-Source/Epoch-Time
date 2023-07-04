@@ -47,6 +47,7 @@
 				<Item Name="Timestamp to RFC5322 DateString.vi" Type="VI" URL="../source/formatter.rfc5322/Timestamp to RFC5322 DateString.vi"/>
 				<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
 				<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="../source/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
+				<Item Name="RFC5322 Month String to Integer.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 Month String to Integer.vi"/>
 			</Item>
 			<Item Name="Gregorian Calendar" Type="Folder">
 				<Item Name="GregorianCal_Month -- enum.ctl" Type="VI" URL="../source/GregorianCal_Month -- enum.ctl"/>
