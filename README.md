@@ -38,10 +38,10 @@ It is completed with an extensible interface for Date-String formatters and come
 
 Many different formats recognized by the ISO8601 standard are supported.
 
-Taking the following date and time: January 1st, 2021 @ 11:50:22.587 in Montreal:
+Taking the following date and time: January 9th, 2021 @ 11:50:22.587 in Montreal:
 
 - UTC DateTime = 2021-01-09T16:50:22.587Z
-- Non UTC DateTime = 2021-01-08T11:50:22.587-05:00
+- Non UTC DateTime = 2021-01-09T11:50:22.587-05:00
 - ISO Date = 2021-01-09 or 20210109
 - ISO Calendar month  = 2021-01
 - ISO Week = 2021-W01
