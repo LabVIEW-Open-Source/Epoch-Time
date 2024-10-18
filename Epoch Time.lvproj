@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
 			<Item Name="Test Epochs.vi" Type="VI" URL="../tests/Test Epochs.vi"/>
+			<Item Name="Test Increments.vi" Type="VI" URL="../tests/Test Increments.vi"/>
 		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="Epoch Classes" Type="Folder">
@@ -32,15 +33,19 @@
 				<Item Name="DateTimeFormatter.lvclass" Type="LVClass" URL="../source/formatter/DateTimeFormatter.lvclass"/>
 			</Item>
 			<Item Name="ISO Formatting" Type="Folder">
+				<Item Name="deprecated" Type="Folder">
+					<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
+					<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
+				</Item>
 				<Item Name="DateTime.ISO8601.lvclass" Type="LVClass" URL="../source/formatter.iso8601/DateTime.ISO8601.lvclass"/>
 				<Item Name="ISO Day -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/ISO Day -- enum.ctl"/>
 				<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="../source/formatter.iso8601/ISO8601 Date Formats.ctl"/>
-				<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
+				<Item Name="Timestamp to ISO8601 DateTime.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 DateTime.vi"/>
 				<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
 				<Item Name="Timestamp to ISO8601 Year.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Year.vi"/>
 				<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
 				<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
-				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
+				<Item Name="ISO8601 DateTime to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateTime to Timestamp.vi"/>
 			</Item>
 			<Item Name="RFC5322 (Email) Formatting" Type="Folder">
 				<Item Name="DateTime.RFC5322.lvclass" Type="LVClass" URL="../source/formatter.rfc5322/DateTime.RFC5322.lvclass"/>
@@ -54,9 +59,13 @@
 				<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../source/GregorianCal_MonthLengths.vi"/>
 				<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../source/GregorianCal_MonthLength.vi"/>
 			</Item>
+			<Item Name="Increment" Type="Folder">
+				<Item Name="Increment Timestamp.vi" Type="VI" URL="../source/Increment Timestamp.vi"/>
+			</Item>
 			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../source/Epochs -- enum.ctl"/>
 			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../source/UTC Offsets -- enum.ctl"/>
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../source/Timestamp Compare Units -- enum.ctl"/>
+			<Item Name="Time Increment Units -- enum.ctl" Type="VI" URL="../source/Time Increment Units -- enum.ctl"/>
 			<Item Name="Epoch Factory.vi" Type="VI" URL="../source/Epoch Factory.vi"/>
 			<Item Name="Get Epoch Time.vi" Type="VI" URL="../source/Get Epoch Time.vi"/>
 			<Item Name="EpochNotTimestamp.vi" Type="VI" URL="../source/EpochNotTimestamp.vi"/>
@@ -67,6 +76,7 @@
 			<Item Name="Get Local UTC Offset.vi" Type="VI" URL="../source/Get Local UTC Offset.vi"/>
 			<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="../source/UTC Offset to Seconds.vi"/>
 			<Item Name="Compare Timestamps.vi" Type="VI" URL="../source/Compare Timestamps.vi"/>
+			<Item Name="Compare ISO8601 DateTimes.vi" Type="VI" URL="../source/Compare ISO8601 DateTimes.vi"/>
 		</Item>
 		<Item Name="Epoch Library -- VI Tree.vi" Type="VI" URL="../source/Epoch Library -- VI Tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
