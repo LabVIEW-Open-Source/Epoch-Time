@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
 			<Item Name="Test Epochs.vi" Type="VI" URL="../tests/Test Epochs.vi"/>
+			<Item Name="Test Increments.vi" Type="VI" URL="../tests/Test Increments.vi"/>
 		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="Epoch Classes" Type="Folder">
@@ -54,7 +55,9 @@
 				<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../source/GregorianCal_MonthLengths.vi"/>
 				<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../source/GregorianCal_MonthLength.vi"/>
 			</Item>
-			<Item Name="Increment" Type="Folder"/>
+			<Item Name="Increment" Type="Folder">
+				<Item Name="Increment Timestamp.vi" Type="VI" URL="../source/Increment Timestamp.vi"/>
+			</Item>
 			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../source/Epochs -- enum.ctl"/>
 			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../source/UTC Offsets -- enum.ctl"/>
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../source/Timestamp Compare Units -- enum.ctl"/>
@@ -69,10 +72,9 @@
 			<Item Name="Get Local UTC Offset.vi" Type="VI" URL="../source/Get Local UTC Offset.vi"/>
 			<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="../source/UTC Offset to Seconds.vi"/>
 			<Item Name="Compare Timestamps.vi" Type="VI" URL="../source/Compare Timestamps.vi"/>
-			<Item Name="Increment Timestamp.vi" Type="VI" URL="../source/Increment Timestamp.vi"/>
+			<Item Name="Compare ISO8601 DateTimes.vi" Type="VI" URL="../source/Compare ISO8601 DateTimes.vi"/>
 		</Item>
 		<Item Name="Epoch Library -- VI Tree.vi" Type="VI" URL="../source/Epoch Library -- VI Tree.vi"/>
-		<Item Name="Test Increments.vi" Type="VI" URL="../tests/Test Increments.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
