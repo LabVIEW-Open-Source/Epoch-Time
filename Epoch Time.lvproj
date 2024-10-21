@@ -14,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
+			<Item Name="Test ISO8601 DateTime Strings.vi" Type="VI" URL="../tests/Test ISO8601 DateTime Strings.vi"/>
 			<Item Name="Test Epochs.vi" Type="VI" URL="../tests/Test Epochs.vi"/>
 			<Item Name="Test Increments.vi" Type="VI" URL="../tests/Test Increments.vi"/>
 		</Item>
@@ -77,7 +78,6 @@
 			<Item Name="Compare ISO8601 DateTimes.vi" Type="VI" URL="../source/Compare ISO8601 DateTimes.vi"/>
 		</Item>
 		<Item Name="Epoch Library -- VI Tree.vi" Type="VI" URL="../source/Epoch Library -- VI Tree.vi"/>
-		<Item Name="Test ISO8601 DateTime Strings.vi" Type="VI" URL="../tests/Test ISO8601 DateTime Strings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
