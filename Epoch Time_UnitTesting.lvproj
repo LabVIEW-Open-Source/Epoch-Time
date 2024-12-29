@@ -25,6 +25,9 @@
 		<Item Name="Test Leap Years.vi" Type="VI" URL="../tests/Test Leap Years.vi"/>
 		<Item Name="Test Comparison.vi" Type="VI" URL="../tests/Test Comparison.vi"/>
 		<Item Name="Test Basic.vi" Type="VI" URL="../tests/Test Basic.vi"/>
+		<Item Name="Test Epoch Conversions.vi" Type="VI" URL="../tests/Test Epoch Conversions.vi"/>
+		<Item Name="Test Weekdays.vi" Type="VI" URL="../tests/Test Weekdays.vi"/>
+		<Item Name="Test Ordinal Dates.vi" Type="VI" URL="../tests/Test Ordinal Dates.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
