@@ -64,6 +64,7 @@
 			<Item Name="Epoch Factory.vi" Type="VI" URL="../source/Epoch Factory.vi"/>
 			<Item Name="Get Epoch Time.vi" Type="VI" URL="../source/Get Epoch Time.vi"/>
 			<Item Name="EpochNotTimestamp.vi" Type="VI" URL="../source/EpochNotTimestamp.vi"/>
+			<Item Name="Epoch.DecomposeFractional.vi" Type="VI" URL="../source/Epoch.DecomposeFractional.vi"/>
 			<Item Name="isLeapYear (Poly).vi" Type="VI" URL="../source/isLeapYear (Poly).vi"/>
 			<Item Name="isLeapYear (integer).vi" Type="VI" URL="../source/isLeapYear (integer).vi"/>
 			<Item Name="isLeapYear (timestamp).vi" Type="VI" URL="../source/isLeapYear (timestamp).vi"/>

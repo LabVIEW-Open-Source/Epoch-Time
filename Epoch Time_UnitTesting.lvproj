@@ -29,6 +29,11 @@
 		<Item Name="Test Weekdays.vi" Type="VI" URL="../tests/Test Weekdays.vi"/>
 		<Item Name="Test Ordinal Dates.vi" Type="VI" URL="../tests/Test Ordinal Dates.vi"/>
 		<Item Name="Test RFC5322.vi" Type="VI" URL="../tests/Test RFC5322.vi"/>
+		<Item Name="Test Strictly Valid ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strictly Valid ISO8601 Strings.vi"/>
+		<Item Name="Test Strictly Invalid ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strictly Invalid ISO8601 Strings.vi"/>
+		<Item Name="Test Strict Ambiguous ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strict Ambiguous ISO8601 Strings.vi"/>
+		<Item Name="Test ISO8601 Conversions.vi" Type="VI" URL="../tests/Test ISO8601 Conversions.vi"/>
+		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../tests/Test ISO8601 Decimal Strings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -181,6 +186,7 @@
 			<Item Name="Compare Timestamps.vi" Type="VI" URL="../source/Compare Timestamps.vi"/>
 			<Item Name="DateTime.ISO8601.lvclass" Type="LVClass" URL="../source/formatter.iso8601/DateTime.ISO8601.lvclass"/>
 			<Item Name="DateTimeFormatter.lvclass" Type="LVClass" URL="../source/formatter/DateTimeFormatter.lvclass"/>
+			<Item Name="Epoch.DecomposeFractional.vi" Type="VI" URL="../source/Epoch.DecomposeFractional.vi"/>
 			<Item Name="Epoch.GPS.lvclass" Type="LVClass" URL="../source/epoch.GPS/Epoch.GPS.lvclass"/>
 			<Item Name="Epoch.lvclass" Type="LVClass" URL="../source/epoch/Epoch.lvclass"/>
 			<Item Name="Epoch.UNIX.lvclass" Type="LVClass" URL="../source/epoch.UNIX/Epoch.UNIX.lvclass"/>
