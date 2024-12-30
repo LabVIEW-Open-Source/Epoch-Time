@@ -40,6 +40,7 @@
 				<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
 				<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
 				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
+				<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
 			</Item>
 			<Item Name="RFC5322 (Email) Formatting" Type="Folder">
 				<Item Name="DateTime.RFC5322.lvclass" Type="LVClass" URL="../source/formatter.rfc5322/DateTime.RFC5322.lvclass"/>
@@ -78,6 +79,7 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
