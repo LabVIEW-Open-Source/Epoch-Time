@@ -34,6 +34,7 @@
 		<Item Name="Test Strict Ambiguous ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strict Ambiguous ISO8601 Strings.vi"/>
 		<Item Name="Test ISO8601 Conversions.vi" Type="VI" URL="../tests/Test ISO8601 Conversions.vi"/>
 		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../tests/Test ISO8601 Decimal Strings.vi"/>
+		<Item Name="timezone_temporary.vi" Type="VI" URL="../tests/timezone_temporary.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -206,6 +207,7 @@
 			<Item Name="ISO Day -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/ISO Day -- enum.ctl"/>
 			<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="../source/formatter.iso8601/ISO8601 Date Formats.ctl"/>
 			<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
+			<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
 			<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
 			<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
 			<Item Name="RFC5322 Month String to Integer.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 Month String to Integer.vi"/>
@@ -214,6 +216,7 @@
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../source/Timestamp Compare Units -- enum.ctl"/>
 			<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
 			<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
+			<Item Name="Timestamp to ISO8601 String.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 String.vi"/>
 			<Item Name="Timestamp to ISO8601 Time.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Time.vi"/>
 			<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
 			<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
