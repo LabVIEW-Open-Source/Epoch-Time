@@ -14,27 +14,29 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Vectors" Type="Folder">
-			<Item Name="invalid-iso8601.txt" Type="Document" URL="../tests/invalid-iso8601.txt"/>
-			<Item Name="valid-iso8601.txt" Type="Document" URL="../tests/valid-iso8601.txt"/>
-			<Item Name="ambiguous-iso8601.txt" Type="Document" URL="../tests/ambiguous-iso8601.txt"/>
+			<Item Name="invalid-iso8601.txt" Type="Document" URL="../invalid-iso8601.txt"/>
+			<Item Name="valid-iso8601.txt" Type="Document" URL="../valid-iso8601.txt"/>
+			<Item Name="ambiguous-iso8601.txt" Type="Document" URL="../ambiguous-iso8601.txt"/>
+			<Item Name="valid-rfc3339.txt" Type="Document" URL="../valid-rfc3339.txt"/>
 		</Item>
-		<Item Name="TEST ALL.vi" Type="VI" URL="../tests/TEST ALL.vi"/>
-		<Item Name="Test ISO8601 DateTime Strings.vi" Type="VI" URL="../tests/Test ISO8601 DateTime Strings.vi"/>
-		<Item Name="Test Increments.vi" Type="VI" URL="../tests/Test Increments.vi"/>
-		<Item Name="Test Time Zone Offset.vi" Type="VI" URL="../tests/Test Time Zone Offset.vi"/>
-		<Item Name="Test Leap Years.vi" Type="VI" URL="../tests/Test Leap Years.vi"/>
-		<Item Name="Test Comparison.vi" Type="VI" URL="../tests/Test Comparison.vi"/>
-		<Item Name="Test Basic.vi" Type="VI" URL="../tests/Test Basic.vi"/>
-		<Item Name="Test Epoch Conversions.vi" Type="VI" URL="../tests/Test Epoch Conversions.vi"/>
-		<Item Name="Test Weekdays.vi" Type="VI" URL="../tests/Test Weekdays.vi"/>
-		<Item Name="Test Ordinal Dates.vi" Type="VI" URL="../tests/Test Ordinal Dates.vi"/>
-		<Item Name="Test RFC5322.vi" Type="VI" URL="../tests/Test RFC5322.vi"/>
-		<Item Name="Test Strictly Valid ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strictly Valid ISO8601 Strings.vi"/>
-		<Item Name="Test Strictly Invalid ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strictly Invalid ISO8601 Strings.vi"/>
-		<Item Name="Test Strict Ambiguous ISO8601 Strings.vi" Type="VI" URL="../tests/Test Strict Ambiguous ISO8601 Strings.vi"/>
-		<Item Name="Test ISO8601 Conversions.vi" Type="VI" URL="../tests/Test ISO8601 Conversions.vi"/>
-		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../tests/Test ISO8601 Decimal Strings.vi"/>
-		<Item Name="timezone_temporary.vi" Type="VI" URL="../tests/timezone_temporary.vi"/>
+		<Item Name="TEST ALL.vi" Type="VI" URL="../TEST ALL.vi"/>
+		<Item Name="Test ISO8601 DateTime Strings.vi" Type="VI" URL="../Test ISO8601 DateTime Strings.vi"/>
+		<Item Name="Test Increments.vi" Type="VI" URL="../Test Increments.vi"/>
+		<Item Name="Test Time Zone Offset.vi" Type="VI" URL="../Test Time Zone Offset.vi"/>
+		<Item Name="Test Leap Years.vi" Type="VI" URL="../Test Leap Years.vi"/>
+		<Item Name="Test Comparison.vi" Type="VI" URL="../Test Comparison.vi"/>
+		<Item Name="Test Basic.vi" Type="VI" URL="../Test Basic.vi"/>
+		<Item Name="Test Epoch Conversions.vi" Type="VI" URL="../Test Epoch Conversions.vi"/>
+		<Item Name="Test Weekdays.vi" Type="VI" URL="../Test Weekdays.vi"/>
+		<Item Name="Test Ordinal Dates.vi" Type="VI" URL="../Test Ordinal Dates.vi"/>
+		<Item Name="Test RFC5322.vi" Type="VI" URL="../Test RFC5322.vi"/>
+		<Item Name="Test RFC3339.vi" Type="VI" URL="../Test RFC3339.vi"/>
+		<Item Name="Test Strictly Valid ISO8601 Strings.vi" Type="VI" URL="../Test Strictly Valid ISO8601 Strings.vi"/>
+		<Item Name="Test Strictly Invalid ISO8601 Strings.vi" Type="VI" URL="../Test Strictly Invalid ISO8601 Strings.vi"/>
+		<Item Name="Test Strict Ambiguous ISO8601 Strings.vi" Type="VI" URL="../Test Strict Ambiguous ISO8601 Strings.vi"/>
+		<Item Name="Test ISO8601 Conversions.vi" Type="VI" URL="../Test ISO8601 Conversions.vi"/>
+		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../Test ISO8601 Decimal Strings.vi"/>
+		<Item Name="timezone_temporary.vi" Type="VI" URL="../timezone_temporary.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -183,48 +185,48 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Compare ISO8601 DateTimes.vi" Type="VI" URL="../source/Compare ISO8601 DateTimes.vi"/>
-			<Item Name="Compare Timestamps.vi" Type="VI" URL="../source/Compare Timestamps.vi"/>
-			<Item Name="DateTime.ISO8601.lvclass" Type="LVClass" URL="../source/formatter.iso8601/DateTime.ISO8601.lvclass"/>
-			<Item Name="DateTimeFormatter.lvclass" Type="LVClass" URL="../source/formatter/DateTimeFormatter.lvclass"/>
-			<Item Name="Epoch.DecomposeFractional.vi" Type="VI" URL="../source/Epoch.DecomposeFractional.vi"/>
-			<Item Name="Epoch.GPS.lvclass" Type="LVClass" URL="../source/epoch.GPS/Epoch.GPS.lvclass"/>
-			<Item Name="Epoch.lvclass" Type="LVClass" URL="../source/epoch/Epoch.lvclass"/>
-			<Item Name="Epoch.UNIX.lvclass" Type="LVClass" URL="../source/epoch.UNIX/Epoch.UNIX.lvclass"/>
-			<Item Name="Epoch.UTC.lvclass" Type="LVClass" URL="../source/epoch.UTC/Epoch.UTC.lvclass"/>
-			<Item Name="EpochNotTimestamp.vi" Type="VI" URL="../source/EpochNotTimestamp.vi"/>
-			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../source/Epochs -- enum.ctl"/>
-			<Item Name="Get Epoch Time.vi" Type="VI" URL="../source/Get Epoch Time.vi"/>
-			<Item Name="Get Local UTC Offset.vi" Type="VI" URL="../source/Get Local UTC Offset.vi"/>
-			<Item Name="GregorianCal_Month -- enum.ctl" Type="VI" URL="../source/GregorianCal_Month -- enum.ctl"/>
-			<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../source/GregorianCal_MonthLength.vi"/>
-			<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../source/GregorianCal_MonthLengths.vi"/>
-			<Item Name="Increment Timestamp.vi" Type="VI" URL="../source/Increment Timestamp.vi"/>
-			<Item Name="isDST.vi" Type="VI" URL="../source/isDST.vi"/>
-			<Item Name="isLeapYear (integer).vi" Type="VI" URL="../source/isLeapYear (integer).vi"/>
-			<Item Name="isLeapYear (Poly).vi" Type="VI" URL="../source/isLeapYear (Poly).vi"/>
-			<Item Name="isLeapYear (timestamp).vi" Type="VI" URL="../source/isLeapYear (timestamp).vi"/>
-			<Item Name="ISO Day -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/ISO Day -- enum.ctl"/>
-			<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="../source/formatter.iso8601/ISO8601 Date Formats.ctl"/>
-			<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
-			<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
-			<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
-			<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
-			<Item Name="RFC5322 Month String to Integer.vi" Type="VI" URL="../source/formatter.rfc5322/RFC5322 Month String to Integer.vi"/>
-			<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="../source/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
-			<Item Name="Time Increment Units -- enum.ctl" Type="VI" URL="../source/Time Increment Units -- enum.ctl"/>
-			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../source/Timestamp Compare Units -- enum.ctl"/>
-			<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
-			<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
-			<Item Name="Timestamp to ISO8601 String.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 String.vi"/>
-			<Item Name="Timestamp to ISO8601 Time.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Time.vi"/>
-			<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
-			<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
-			<Item Name="Timestamp to ISO8601 Year.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Year.vi"/>
-			<Item Name="Timestamp to RFC5322 DateString.vi" Type="VI" URL="../source/formatter.rfc5322/Timestamp to RFC5322 DateString.vi"/>
+			<Item Name="Compare ISO8601 DateTimes.vi" Type="VI" URL="../../source/Compare ISO8601 DateTimes.vi"/>
+			<Item Name="Compare Timestamps.vi" Type="VI" URL="../../source/Compare Timestamps.vi"/>
+			<Item Name="DateTime.ISO8601.lvclass" Type="LVClass" URL="../../source/formatter.iso8601/DateTime.ISO8601.lvclass"/>
+			<Item Name="DateTimeFormatter.lvclass" Type="LVClass" URL="../../source/formatter/DateTimeFormatter.lvclass"/>
+			<Item Name="Epoch.DecomposeFractional.vi" Type="VI" URL="../../source/Epoch.DecomposeFractional.vi"/>
+			<Item Name="Epoch.GPS.lvclass" Type="LVClass" URL="../../source/epoch.GPS/Epoch.GPS.lvclass"/>
+			<Item Name="Epoch.lvclass" Type="LVClass" URL="../../source/epoch/Epoch.lvclass"/>
+			<Item Name="Epoch.UNIX.lvclass" Type="LVClass" URL="../../source/epoch.UNIX/Epoch.UNIX.lvclass"/>
+			<Item Name="Epoch.UTC.lvclass" Type="LVClass" URL="../../source/epoch.UTC/Epoch.UTC.lvclass"/>
+			<Item Name="EpochNotTimestamp.vi" Type="VI" URL="../../source/EpochNotTimestamp.vi"/>
+			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../../source/Epochs -- enum.ctl"/>
+			<Item Name="Get Epoch Time.vi" Type="VI" URL="../../source/Get Epoch Time.vi"/>
+			<Item Name="Get Local UTC Offset.vi" Type="VI" URL="../../source/Get Local UTC Offset.vi"/>
+			<Item Name="GregorianCal_Month -- enum.ctl" Type="VI" URL="../../source/GregorianCal_Month -- enum.ctl"/>
+			<Item Name="GregorianCal_MonthLength.vi" Type="VI" URL="../../source/GregorianCal_MonthLength.vi"/>
+			<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="../../source/GregorianCal_MonthLengths.vi"/>
+			<Item Name="Increment Timestamp.vi" Type="VI" URL="../../source/Increment Timestamp.vi"/>
+			<Item Name="isDST.vi" Type="VI" URL="../../source/isDST.vi"/>
+			<Item Name="isLeapYear (integer).vi" Type="VI" URL="../../source/isLeapYear (integer).vi"/>
+			<Item Name="isLeapYear (Poly).vi" Type="VI" URL="../../source/isLeapYear (Poly).vi"/>
+			<Item Name="isLeapYear (timestamp).vi" Type="VI" URL="../../source/isLeapYear (timestamp).vi"/>
+			<Item Name="ISO Day -- enum.ctl" Type="VI" URL="../../source/formatter.iso8601/ISO Day -- enum.ctl"/>
+			<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="../../source/formatter.iso8601/ISO8601 Date Formats.ctl"/>
+			<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
+			<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
+			<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
+			<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
+			<Item Name="RFC5322 Month String to Integer.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 Month String to Integer.vi"/>
+			<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
+			<Item Name="Time Increment Units -- enum.ctl" Type="VI" URL="../../source/Time Increment Units -- enum.ctl"/>
+			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../../source/Timestamp Compare Units -- enum.ctl"/>
+			<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
+			<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
+			<Item Name="Timestamp to ISO8601 String.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 String.vi"/>
+			<Item Name="Timestamp to ISO8601 Time.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Time.vi"/>
+			<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
+			<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
+			<Item Name="Timestamp to ISO8601 Year.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Year.vi"/>
+			<Item Name="Timestamp to RFC5322 DateString.vi" Type="VI" URL="../../source/formatter.rfc5322/Timestamp to RFC5322 DateString.vi"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="../source/UTC Offset to Seconds.vi"/>
-			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../source/UTC Offsets -- enum.ctl"/>
+			<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="../../source/UTC Offset to Seconds.vi"/>
+			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../../source/UTC Offsets -- enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
