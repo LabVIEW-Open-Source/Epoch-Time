@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2024-12-31 12:32:17" Creator="Francois Normandin" Comments="" ID="6a07b137f8bd8a850b6be2941e28e0cf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2024-12-31 12:37:43" Creator="Francois Normandin" Comments="" ID="fa55a0624202df0d65d04f405651bf32">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Epoch_DateTime</Package_File_Name>
-    <Library_Version>1.2.0.7</Library_Version>
+    <Library_Version>1.3.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -76,8 +76,13 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
       <Copyright/>
       <Packager>Francois Normandin</Packager>
       <URL>https://github.com/LabVIEW-Open-Source/Epoch-Time</URL>
-      <Release_Notes>[Feature:4] Addition of RFC850 and ANSI-C tolerance (default = false) to the RFC5322 strign to time method.
-[Feature] Added support for UTC Offset letters (A thru Y)</Release_Notes>
+      <Release_Notes>[Fix: 9] Fixed a bug where the Daylight Saving Times was not calculated correctly
+[Feature] Multiple additions to support ISO8601:2019 strict and non-strict formatting
+[Fix: 11] Unification of terminal names
+
+Contributors: 
+Patrick Irvin (@ciozi137)
+Francois Normandin (@francois-normandin)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -625,7 +630,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\formatter.iso8601\ISO8601 TimeString to Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34D3305400A731CE821EC71945DB965C</GUID>
+      <GUID>DFEF21B3934451AE7F41D6C038B25DBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +791,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\epoch\leapSeconds LUT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>937E007C9A9353153D82BCC26EE60F6A</GUID>
+      <GUID>38D214D77EFC4C9B4A5CAA6774F281FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -877,7 +882,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\formatter.iso8601\YearToFirstDayW01.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B1059E3ABD827EADFF9C7D8E9BD7BE0</GUID>
+      <GUID>B511FAC921278EA2F36CC1798F98691E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -996,7 +1001,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\formatter.iso8601</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CEE6A9622607EFE0D4E08FE72E5F095</GUID>
+      <GUID>208418AB73FF99A4DF41CC352C098B7E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1129,7 +1134,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\Increment Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9F5979845AA625D3FC3A7CEFEBBE067</GUID>
+      <GUID>B8C02E92596B7C2324133B81F808565D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1192,7 +1197,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\formatter.rfc5322\RFC5322 DateString to Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7ADD42717CFA6C6279F9D4417E187206</GUID>
+      <GUID>20B9A7E0B2BCFA168920F5065EF4BD85</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -1509,7 +1514,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\formatter.rfc5322\Timestamp to RFC5322 DateString.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1E8EDEB547CC176417970C10987D50C</GUID>
+      <GUID>7BA46E81647C0CFA55C98B51B4E438B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1614,7 +1619,7 @@ GPS clocks and International Atomic Time are continuous and evenly-spaced, where
         <Path>source\epoch\splitFractionalSeconds[us].vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE0544DDA66546FA77B938F3A80D65A4</GUID>
+      <GUID>C477F5CFDF945FCCE057805F8EA13A65</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
