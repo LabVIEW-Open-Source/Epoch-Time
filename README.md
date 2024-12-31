@@ -84,3 +84,7 @@ Notable facts:
 - UTC is, in 2021, offset by 37 seconds from TAI... and 18 seconds from GPS (37s - 19s)
 
 A practical method has been added to the palette to compare with a pre-defined resolution. The node defaults to 1 millisecond, but can be set to any fractional of multiple of 1, and units available span from nanoseconds to weeks.
+
+References:
+ISO8601-1:2019 (Library of Congress)
+https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf
