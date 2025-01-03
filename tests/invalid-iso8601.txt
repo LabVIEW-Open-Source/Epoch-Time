@@ -12,6 +12,8 @@
 24295
 2024W430
 2024W438
+#Date with unterminated time designator
+2021-10-12T
 # Pre 1600 dates - not supported in LV timestamp
 1243-10
 1599-12
