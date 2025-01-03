@@ -45,6 +45,7 @@
 				<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
 				<Item Name="Timestamp to ISO8601 Day.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Day.vi"/>
 				<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
+				<Item Name="ISO8601 DateString_new to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString_new to Timestamp.vi"/>
 				<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
 			</Item>
 			<Item Name="RFC5322 (Email) Formatting" Type="Folder">
