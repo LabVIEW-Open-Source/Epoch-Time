@@ -42,7 +42,6 @@
 		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../Test ISO8601 Decimal Strings.vi"/>
 		<Item Name="timezone_temporary.vi" Type="VI" URL="../timezone_temporary.vi"/>
 		<Item Name="Parse Vector Line.vi" Type="VI" URL="../Parse Vector Line.vi"/>
-		<Item Name="ISO8601 DateString_subVI to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 DateString_subVI to Timestamp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -214,6 +213,7 @@
 			<Item Name="ISO Day -- enum.ctl" Type="VI" URL="../../source/formatter.iso8601/ISO Day -- enum.ctl"/>
 			<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="../../source/formatter.iso8601/ISO8601 Date Formats.ctl"/>
 			<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
+			<Item Name="ISO8601 DateString_subVI to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 DateString_subVI to Timestamp.vi"/>
 			<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
 			<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
 			<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
