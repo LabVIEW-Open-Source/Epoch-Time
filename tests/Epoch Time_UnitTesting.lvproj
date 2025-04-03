@@ -15,10 +15,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Vectors" Type="Folder">
-			<Item Name="invalid-iso8601.txt" Type="Document" URL="../invalid-iso8601.txt"/>
 			<Item Name="valid-iso8601.txt" Type="Document" URL="../valid-iso8601.txt"/>
+			<Item Name="invalid-iso8601.txt" Type="Document" URL="../invalid-iso8601.txt"/>
 			<Item Name="ambiguous-iso8601.txt" Type="Document" URL="../ambiguous-iso8601.txt"/>
 			<Item Name="valid-rfc3339.txt" Type="Document" URL="../valid-rfc3339.txt"/>
+			<Item Name="unsupported-iso8601.txt" Type="Document" URL="../unsupported-iso8601.txt"/>
+			<Item Name="invalid-rfc3339.txt" Type="Document" URL="../invalid-rfc3339.txt"/>
 		</Item>
 		<Item Name="TEST ALL.vi" Type="VI" URL="../TEST ALL.vi"/>
 		<Item Name="Test ISO8601 DateTime Strings.vi" Type="VI" URL="../Test ISO8601 DateTime Strings.vi"/>
@@ -40,6 +42,7 @@
 		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../Test ISO8601 Decimal Strings.vi"/>
 		<Item Name="timezone_temporary.vi" Type="VI" URL="../timezone_temporary.vi"/>
 		<Item Name="Parse Vector Line.vi" Type="VI" URL="../Parse Vector Line.vi"/>
+		<Item Name="ISO8601 DateString_subVI to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 DateString_subVI to Timestamp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
