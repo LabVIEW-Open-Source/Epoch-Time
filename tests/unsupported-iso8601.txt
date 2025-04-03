@@ -1,0 +1,11 @@
+# Valid ISO8601 but not supported by Epoch-Time Library
+# Dates
+202
+20
+12
+12,7
+12.7
+
+# Pre 1600 dates - not supported in LV timestamp
+1243-10
+1599-12
