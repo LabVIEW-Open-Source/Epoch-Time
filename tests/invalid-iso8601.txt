@@ -1,6 +1,6 @@
+# Invalid
 # Dates
 202
-20
 2024-000
 2024-367
 2024-W1
@@ -12,12 +12,6 @@
 24295
 2024W430
 2024W438
+
 #Date with unterminated time designator
 2021-10-12T
-# Pre 1600 dates - not supported in LV timestamp
-1243-10
-1599-12
-# Times
-12
-12,7
-12.7

@@ -35,10 +35,11 @@
 		<Item Name="Test Strictly Valid ISO8601 Strings.vi" Type="VI" URL="../Test Strictly Valid ISO8601 Strings.vi"/>
 		<Item Name="Test Strictly Invalid ISO8601 Strings.vi" Type="VI" URL="../Test Strictly Invalid ISO8601 Strings.vi"/>
 		<Item Name="Test Strict Ambiguous ISO8601 Strings.vi" Type="VI" URL="../Test Strict Ambiguous ISO8601 Strings.vi"/>
+		<Item Name="Test Strictly Unsupported ISO8601 Strings.vi" Type="VI" URL="../Test Strictly Unsupported ISO8601 Strings.vi"/>
 		<Item Name="Test ISO8601 Conversions.vi" Type="VI" URL="../Test ISO8601 Conversions.vi"/>
 		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../Test ISO8601 Decimal Strings.vi"/>
 		<Item Name="timezone_temporary.vi" Type="VI" URL="../timezone_temporary.vi"/>
-		<Item Name="Test Strictly Unsupported ISO8601 Strings.vi" Type="VI" URL="../Test Strictly Unsupported ISO8601 Strings.vi"/>
+		<Item Name="Parse Vector Line.vi" Type="VI" URL="../Parse Vector Line.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
