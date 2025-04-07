@@ -38,6 +38,7 @@
 		<Item Name="Test ISO8601 Conversions.vi" Type="VI" URL="../Test ISO8601 Conversions.vi"/>
 		<Item Name="Test ISO8601 Decimal Strings.vi" Type="VI" URL="../Test ISO8601 Decimal Strings.vi"/>
 		<Item Name="timezone_temporary.vi" Type="VI" URL="../timezone_temporary.vi"/>
+		<Item Name="Test Epochs (v1.2).vi" Type="VI" URL="../Test Epochs (v1.2).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -224,6 +225,8 @@
 			<Item Name="Timestamp to ISO8601 Week.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Week.vi"/>
 			<Item Name="Timestamp to ISO8601 Year.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Year.vi"/>
 			<Item Name="Timestamp to RFC5322 DateString.vi" Type="VI" URL="../../source/formatter.rfc5322/Timestamp to RFC5322 DateString.vi"/>
+			<Item Name="Timestamp to Unix Time.vi" Type="VI" URL="../../source/epoch.UNIX/Timestamp to Unix Time.vi"/>
+			<Item Name="Unix Time to Timestamp.vi" Type="VI" URL="../../source/epoch.UNIX/Unix Time to Timestamp.vi"/>
 			<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="../../source/UTC Offset to Seconds.vi"/>
 			<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="../../source/UTC Offsets -- enum.ctl"/>
 		</Item>
