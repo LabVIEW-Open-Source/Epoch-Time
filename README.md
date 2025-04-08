@@ -40,15 +40,15 @@ Many different formats recognized by the ISO8601 standard are supported.
 
 Taking the following date and time: January 9th, 2021 @ 11:50:22.587 in Montreal:
 
-- UTC DateTime = 2021-01-09T16:50:22.587Z
-- Non UTC DateTime = 2021-01-09T11:50:22.587-05:00
+- ISO Date-Time in UTC = 2021-01-09T16:50:22.587Z
+- ISO Date-Time in EST = 2021-01-09T11:50:22.587-05:00
 - ISO Date = 2021-01-09 or 20210109
 - ISO Calendar month  = 2021-01
 - ISO Week = 2021-W01
 - ISO Week-Day = 2021-W01-6
 - ISO Ordinal Date = 2021-009
 
-The reverse operation (ISO8601 DateString to Timestamp) supports all the above accepted formats, validates the input string for compliance and returns the ISO Format type matched.
+The reverse operation (ISO8601 String to Timestamp) supports all the above accepted formats, validates the input string for compliance and returns the ISO Format type matched.
 
 ![ISO8601](https://user-images.githubusercontent.com/11728548/104110687-0f52cc80-52a8-11eb-8888-462fc7243fbf.png "ISO8601")
 
@@ -86,7 +86,7 @@ Leap Seconds record is kept in a table maintained by an international consortium
 A practical method has been added to the palette to compare with a pre-defined resolution. The node defaults to 1 millisecond, but can be set to any fractional of multiple of 1, and units available span from nanoseconds to weeks.
 
 ## References:
-- [ISO 8601 (Wikipedia)](https://en.wikipedia.org/wiki/ISO_8601)
 - [ISO/WD 8601-1 (Library of Congress)](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf)
+- [ISO 8601 (Wikipedia)](https://en.wikipedia.org/wiki/ISO_8601)
 - [RFC 3339 (ITEF)](https://datatracker.ietf.org/doc/html/rfc3339)
 - [RFC 3339 vs ISO 8601](https://ijmacd.github.io/rfc3339-iso8601/)
