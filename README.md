@@ -78,13 +78,15 @@ Leap Seconds record is kept in a table maintained by an international consortium
 
 ![GPS-Unix](https://user-images.githubusercontent.com/11728548/104110804-2d6cfc80-52a9-11eb-8ef9-36ea583df8c7.png "GPS and Unix Time")
 
-Notable facts: 
+### Notable facts: 
 - UTC Time accepts "YYYY-12-31T23:59:60Z" to allow for leap seconds to be introduced (note the seconds segment = 60)
 - GPS Clock is permanently offset from TAI by 19 seconds
 - UTC is, in 2021, offset by 37 seconds from TAI... and 18 seconds from GPS (37s - 19s)
 
 A practical method has been added to the palette to compare with a pre-defined resolution. The node defaults to 1 millisecond, but can be set to any fractional of multiple of 1, and units available span from nanoseconds to weeks.
 
-References:
-ISO8601-1:2019 (Library of Congress)
-https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf
+## References:
+- [ISO 8601 (Wikipedia)](https://en.wikipedia.org/wiki/ISO_8601)
+- [ISO/WD 8601-1 (Library of Congress)](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf)
+- [RFC 3339 (ITEF)](https://datatracker.ietf.org/doc/html/rfc3339)
+- [RFC 3339 vs ISO 8601](https://ijmacd.github.io/rfc3339-iso8601/)
