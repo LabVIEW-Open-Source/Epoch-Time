@@ -215,6 +215,8 @@
 			<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
 			<Item Name="RFC5322 Month String to Integer.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 Month String to Integer.vi"/>
 			<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
+			<Item Name="Seconds Format String.vi" Type="VI" URL="../../source/formatter.iso8601/Seconds Format String.vi"/>
+			<Item Name="Seconds Units -- enum.ctl" Type="VI" URL="../../source/formatter.iso8601/Seconds Units -- enum.ctl"/>
 			<Item Name="Time Increment Units -- enum.ctl" Type="VI" URL="../../source/Time Increment Units -- enum.ctl"/>
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../../source/Timestamp Compare Units -- enum.ctl"/>
 			<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
