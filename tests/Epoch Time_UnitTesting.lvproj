@@ -194,6 +194,8 @@
 			<Item Name="Epoch.lvclass" Type="LVClass" URL="../../source/epoch/Epoch.lvclass"/>
 			<Item Name="Epoch.UNIX.lvclass" Type="LVClass" URL="../../source/epoch.UNIX/Epoch.UNIX.lvclass"/>
 			<Item Name="Epoch.UTC.lvclass" Type="LVClass" URL="../../source/epoch.UTC/Epoch.UTC.lvclass"/>
+			<Item Name="Epoch_NotationLocale.vi" Type="VI" URL="../../source/formatter.iso8601/Epoch_NotationLocale.vi"/>
+			<Item Name="Epoch_Seconds Format String.vi" Type="VI" URL="../../source/formatter.iso8601/Epoch_Seconds Format String.vi"/>
 			<Item Name="EpochNotTimestamp.vi" Type="VI" URL="../../source/EpochNotTimestamp.vi"/>
 			<Item Name="Epochs -- enum.ctl" Type="VI" URL="../../source/Epochs -- enum.ctl"/>
 			<Item Name="Get Epoch Time.vi" Type="VI" URL="../../source/Get Epoch Time.vi"/>
@@ -211,9 +213,11 @@
 			<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 			<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
 			<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="../../source/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
+			<Item Name="Locale -- enum.ctl" Type="VI" URL="../../source/formatter.iso8601/Locale -- enum.ctl"/>
 			<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
 			<Item Name="RFC5322 Month String to Integer.vi" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 Month String to Integer.vi"/>
 			<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="../../source/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
+			<Item Name="Seconds Units -- enum.ctl" Type="VI" URL="../../source/formatter.iso8601/Seconds Units -- enum.ctl"/>
 			<Item Name="Time Increment Units -- enum.ctl" Type="VI" URL="../../source/Time Increment Units -- enum.ctl"/>
 			<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="../../source/Timestamp Compare Units -- enum.ctl"/>
 			<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
