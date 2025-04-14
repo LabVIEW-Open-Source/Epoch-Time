@@ -34,11 +34,15 @@
 					<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
 					<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="../source/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 				</Item>
+				<Item Name="Formatting Utilities" Type="Folder">
+					<Item Name="Seconds Units -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/Seconds Units -- enum.ctl"/>
+					<Item Name="Locale -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/Locale -- enum.ctl"/>
+					<Item Name="Epoch_Seconds Format String.vi" Type="VI" URL="../source/formatter.iso8601/Epoch_Seconds Format String.vi"/>
+					<Item Name="Epoch_NotationLocale.vi" Type="VI" URL="../source/formatter.iso8601/Epoch_NotationLocale.vi"/>
+				</Item>
 				<Item Name="DateTime.ISO8601.lvclass" Type="LVClass" URL="../source/formatter.iso8601/DateTime.ISO8601.lvclass"/>
 				<Item Name="ISO Day -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/ISO Day -- enum.ctl"/>
 				<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="../source/formatter.iso8601/ISO8601 Date Formats.ctl"/>
-				<Item Name="Seconds Units -- enum.ctl" Type="VI" URL="../source/formatter.iso8601/Seconds Units -- enum.ctl"/>
-				<Item Name="Seconds Format String.vi" Type="VI" URL="../source/formatter.iso8601/Seconds Format String.vi"/>
 				<Item Name="Timestamp to ISO8601 String.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 String.vi"/>
 				<Item Name="Timestamp to ISO8601 Time.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Time.vi"/>
 				<Item Name="Timestamp to ISO8601 Date.vi" Type="VI" URL="../source/formatter.iso8601/Timestamp to ISO8601 Date.vi"/>
