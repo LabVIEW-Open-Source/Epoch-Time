@@ -12,6 +12,7 @@
 24295
 2024W430
 2024W438
+1996-12-19T
 # Pre 1600 dates - not supported in LV timestamp
 1243-10
 1599-12
